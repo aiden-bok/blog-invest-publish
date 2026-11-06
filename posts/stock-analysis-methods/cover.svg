@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="cover-title cover-desc">
+  <title id="cover-title">주식 분석 방법 cover</title>
+  <desc id="cover-desc">남색 배경 왼쪽에 제목 주식 분석 방법이 적히고, 오른쪽에 재무제표 서류와 이동평균선이 겹친 차트가 놓인 표지</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14213d" />
+      <stop offset="1" stop-color="#0b1226" />
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.35" />
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0" />
+    </radialGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="220%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#000000" flood-opacity="0.45" />
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <circle cx="900" cy="300" r="340" fill="url(#halo)" />
+  <g stroke="#ffffff" stroke-opacity="0.08" stroke-width="1.5">
+    <line x1="0" y1="560" x2="1200" y2="560" />
+    <line x1="0" y1="592" x2="1200" y2="592" />
+  </g>
+
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Noto Sans CJK KR', 'Malgun Gothic', sans-serif">
+    <rect x="72" y="84" width="224" height="44" rx="22" fill="#38bdf8" fill-opacity="0.15" stroke="#7dd3fc" stroke-opacity="0.7" />
+    <text x="184" y="113" font-size="20" font-weight="700" fill="#bae6fd" text-anchor="middle">기본적 · 기술적</text>
+    <text x="72" y="236" font-size="72" font-weight="800" fill="#ffffff">주식 분석 방법</text>
+    <text x="72" y="304" font-size="40" font-weight="700" fill="#cbd5e1">초보자를 위한 두 가지 관점</text>
+    <rect x="72" y="344" width="96" height="6" rx="3" fill="#fbbf24" />
+    <text x="72" y="404" font-size="26" font-weight="500" fill="#cbd5e1">재무제표 · PER · 이동평균선</text>
+    <text x="72" y="536" font-size="22" font-weight="700" fill="#e2e8f0">원금 보존 연구소</text>
+    <text x="240" y="536" font-size="22" font-weight="400" fill="#94a3b8">invest.route50.kr</text>
+  </g>
+
+  <g transform="translate(640 120) rotate(-6)" filter="url(#shadow)">
+    <rect width="270" height="360" rx="10" fill="#f8fafc" />
+    <rect x="24" y="28" width="150" height="16" rx="4" fill="#1e293b" />
+    <g fill="#94a3b8">
+      <rect x="24" y="76" width="222" height="8" rx="4" />
+      <rect x="24" y="104" width="222" height="8" rx="4" />
+      <rect x="24" y="132" width="180" height="8" rx="4" />
+      <rect x="24" y="160" width="222" height="8" rx="4" />
+    </g>
+    <rect x="24" y="260" width="34" height="60" rx="3" fill="#f04452" />
+    <rect x="76" y="230" width="34" height="90" rx="3" fill="#f04452" />
+    <rect x="128" y="196" width="34" height="124" rx="3" fill="#f04452" />
+    <rect x="180" y="214" width="34" height="106" rx="3" fill="#8b95a1" />
+  </g>
+
+  <g transform="translate(820 200)" filter="url(#shadow)">
+    <rect width="300" height="260" rx="14" fill="#0f1b36" stroke="#334155" stroke-width="2" />
+    <g stroke="#ffffff" stroke-opacity="0.1">
+      <line x1="20" y1="70" x2="280" y2="70" />
+      <line x1="20" y1="130" x2="280" y2="130" />
+      <line x1="20" y1="190" x2="280" y2="190" />
+    </g>
+    <g stroke-width="3" stroke-linecap="round">
+      <g stroke="#f04452" fill="#f04452">
+        <line x1="50" y1="150" x2="50" y2="210" />
+        <rect x="42" y="165" width="16" height="30" stroke="none" />
+        <line x1="110" y1="110" x2="110" y2="180" />
+        <rect x="102" y="125" width="16" height="40" stroke="none" />
+        <line x1="170" y1="80" x2="170" y2="140" />
+        <rect x="162" y="90" width="16" height="35" stroke="none" />
+        <line x1="200" y1="60" x2="200" y2="120" />
+        <rect x="192" y="72" width="16" height="35" stroke="none" />
+        <line x1="230" y1="40" x2="230" y2="100" />
+        <rect x="222" y="55" width="16" height="30" stroke="none" />
+      </g>
+      <g stroke="#3182f6" fill="#3182f6">
+        <line x1="80" y1="130" x2="80" y2="200" />
+        <rect x="72" y="145" width="16" height="40" stroke="none" />
+        <line x1="140" y1="95" x2="140" y2="150" />
+        <rect x="132" y="105" width="16" height="30" stroke="none" />
+      </g>
+    </g>
+    <path d="M20 190 C70 180 100 150 140 120 S210 70 280 40" fill="none" stroke="#fbbf24" stroke-width="5" stroke-linecap="round" />
+    <path d="M20 205 C80 200 120 180 160 150 S230 110 280 90" fill="none" stroke="#38bdf8" stroke-width="5" stroke-linecap="round" />
+  </g>
+</svg>

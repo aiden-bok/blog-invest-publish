@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="cover-title cover-desc">
+  <title id="cover-title">증권사 계좌 종류 cover</title>
+  <desc id="cover-desc">남색 배경 왼쪽에 제목 '증권사 계좌 종류', 오른쪽에 위탁계좌, CMA, ISA, 연금저축 이름표가 붙은 네 개의 서류 폴더가 비스듬히 겹쳐 놓인 그림</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14213d" />
+      <stop offset="1" stop-color="#0b1426" />
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.35" />
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0" />
+    </radialGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="220%">
+      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#000000" flood-opacity="0.45" />
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <circle cx="900" cy="315" r="340" fill="url(#halo)" />
+  <g stroke="#ffffff" stroke-opacity="0.08" stroke-width="1.5">
+    <line x1="0" y1="560" x2="1200" y2="560" />
+    <line x1="0" y1="592" x2="1200" y2="592" />
+  </g>
+
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Noto Sans CJK KR', 'Malgun Gothic', sans-serif">
+    <rect x="72" y="84" width="176" height="44" rx="22" fill="#38bdf8" fill-opacity="0.15" stroke="#7dd3fc" stroke-opacity="0.7" />
+    <text x="160" y="113" font-size="20" font-weight="700" fill="#bae6fd" text-anchor="middle">증권사 · 계좌</text>
+    <text x="72" y="232" font-size="64" font-weight="800" fill="#ffffff">증권사 계좌 종류</text>
+    <text x="72" y="304" font-size="40" font-weight="700" fill="#cbd5e1">어디에 먼저 담을까</text>
+    <rect x="72" y="344" width="96" height="6" rx="3" fill="#fbbf24" />
+    <text x="72" y="404" font-size="26" font-weight="500" fill="#cbd5e1">위탁 · CMA · ISA · 연금저축</text>
+    <text x="72" y="536" font-size="22" font-weight="700" fill="#e2e8f0">원금 보존 연구소</text>
+    <text x="240" y="536" font-size="22" font-weight="400" fill="#cbd5e1">invest.route50.kr</text>
+  </g>
+
+  <!-- 서류 폴더 네 개: 뒤에서 앞으로 겹쳐 쌓음 -->
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Noto Sans CJK KR', 'Malgun Gothic', sans-serif" font-weight="700">
+    <g transform="translate(69090)" filter="url(#shadow)">
+      <path d="M0 40 a12 12 0 0 1 12 -12 h120 l24 -28 h8 a12 12 0 0 1 0 0 h268 a12 12 0 0 1 12 12 v100 h-444 Z" fill="#f59e0b" />
+      <rect x="0" y="28" width="444" height="116" rx="12" fill="#fbbf24" />
+      <text x="32" y="88" font-size="30" fill="#1c1917">연금저축</text>
+    </g>
+    <g transform="translate(690190)" filter="url(#shadow)">
+      <rect x="0" y="28" width="444" height="116" rx="12" fill="#38bdf8" />
+      <rect x="0" y="0" width="150" height="40" rx="12" fill="#38bdf8" />
+      <text x="32" y="88" font-size="30" fill="#0b1426">ISA</text>
+    </g>
+    <g transform="translate(690290)" filter="url(#shadow)">
+      <rect x="0" y="28" width="444" height="116" rx="12" fill="#a7f3d0" />
+      <rect x="0" y="0" width="150" height="40" rx="12" fill="#a7f3d0" />
+      <text x="32" y="88" font-size="30" fill="#0b1426">CMA</text>
+    </g>
+    <g transform="translate(690390)" filter="url(#shadow)">
+      <rect x="0" y="28" width="444" height="116" rx="12" fill="#f1f5f9" />
+      <rect x="0" y="0" width="150" height="40" rx="12" fill="#f1f5f9" />
+      <text x="32" y="88" font-size="30" fill="#0b1426">위탁계좌</text>
+    </g>
+  </g>
+</svg>

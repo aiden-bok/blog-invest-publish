@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Account on 원금 보존 연구소</title><link>https://invest.route50.kr/tags/account/</link><description>Recent content in Account on 원금 보존 연구소</description><image><title>원금 보존 연구소</title><url>https://invest.route50.kr/about/cover.jpg</url><link>https://invest.route50.kr/about/cover.jpg</link></image><generator>Hugo</generator><language>ko-kr</language><lastBuildDate>Thu, 05 Nov 2026 09:59:03 +0900</lastBuildDate><atom:link href="https://invest.route50.kr/tags/account/index.xml" rel="self" type="application/rss+xml"/><item><title>증권사 역할과 계좌 종류: 위탁계좌, CMA, ISA, 연금저축</title><link>https://invest.route50.kr/posts/brokerage-account-types/</link><pubDate>Thu, 05 Nov 2026 00:00:00 +0900</pubDate><guid>https://invest.route50.kr/posts/brokerage-account-types/</guid><description>증권사가 주문을 중개하는 방식과 위탁계좌, CMA, ISA, 연금저축펀드의 차이, 세제 혜택 계좌를 먼저 채우는 순서와 수수료 확인법을 정리했습니다.</description><content:encoded><![CDATA[<p>증권사는 투자자의 주문을 거래소에 전달하는 <a href="#term-brokerage">위탁매매</a>(투자자의 계산으로 증권사가 대신 주문을 내는 일) 중개기관이고, 투자자는 목적에 맞는 계좌를 골라 그 안에서 거래합니다. 세금 혜택이 있는 ISA와 연금저축을 먼저 채우고, 한도를 넘는 돈은 일반 위탁계좌로 굴리며, 당장 쓸 돈은 CMA에 두는 순서가 흔히 쓰이는 틀입니다. 수치와 제도는 2026-11-05에 확인한 기준이며, 세금과 가입 조건은 개인 상황에 따라 달라지므로 일반적인 기준으로만 읽어 주세요.</p>
+<h2 id="증권사는-어떤-일을-하나">증권사는 어떤 일을 하나</h2>
+<p>개인은 한국거래소에 직접 주문을 낼 수 없고, 거래소 회원인 증권사를 통해서만 사고팝니다. 투자자가 앱에서 주문하면 증권사가 이를 거래소에 전달하고, 체결 결과를 계좌에 반영합니다. 이 대가로 받는 돈이 매매 수수료입니다. 시장 구조와 결제일은 <a href="https://invest.route50.kr/posts/stock-market-basics/">주식시장 이해</a> 글에 있습니다.</p>
+<p>주식을 사고 남은 현금은 증권사 계좌에 투자자예탁금으로 남습니다. 예금보험공사 안내에 따르면 증권사에서 주식 매수에 쓰지 않은 투자자예탁금은 예금자보호 대상이고, 보호 한도는 2025-09-01부터 금융회사별 1인당 1억 원입니다. 반대로 증권사 CMA나 펀드는 보호 대상이 아닙니다. (<a href="https://www.kdic.or.kr/sp/dpstrprot/selectProtSystProtTrgtPrdctSumr.do">예금보험공사 보호대상 금융상품</a>, <a href="https://www.kdic.or.kr/">예금보험공사</a>, 2026-11-05 확인)</p>
+<h2 id="계좌-네-가지를-한눈에-비교">계좌 네 가지를 한눈에 비교</h2>
+<p>계좌 종류에 따라 달라지는 것은 투자할 수 있는 상품이 아니라 세금과 자금을 묶어 두는 조건입니다.</p>
+<table>
+	<thead>
+			<tr>
+					<th>계좌</th>
+					<th>용도</th>
+					<th>세금</th>
+					<th>묶이는 조건</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>일반 위탁계좌</td>
+					<td>주식, ETF 등 자유로운 거래</td>
+					<td>상품별로 일반 과세</td>
+					<td>없음</td>
+			</tr>
+			<tr>
+					<td>CMA</td>
+					<td>대기 자금 보관</td>
+					<td>이자·배당에 일반 과세</td>
+					<td>없음</td>
+			</tr>
+			<tr>
+					<td>ISA</td>
+					<td>중기 투자</td>
+					<td>순이익 비과세 한도, 초과분 9.9% 분리과세</td>
+					<td>의무가입 3년</td>
+			</tr>
+			<tr>
+					<td>연금저축펀드</td>
+					<td>노후 대비</td>
+					<td>납입 때 세액공제, 수령 때 연금소득세</td>
+					<td>만 55세 이후 연금 수령</td>
+			</tr>
+	</tbody>
+</table>
+<h2 id="일반-위탁계좌">일반 위탁계좌</h2>
+<p>일반 위탁계좌는 입출금과 납입 한도에 제한이 없는 기본 증권 계좌입니다. 국내 상장주식, ETF, 해외 주식을 모두 담을 수 있어 자유롭지만, 세금 혜택이 없습니다. 비용이 어떻게 붙는지는 <a href="https://invest.route50.kr/posts/stock-trading-costs/">주식 거래 비용</a> 글에 정리했습니다.</p>
+<h2 id="cma는-어디까지-믿을-수-있나">CMA는 어디까지 믿을 수 있나</h2>
+<p><a href="#term-cma">CMA</a>(Cash Management Account: 종합자산관리계좌)는 맡긴 돈을 <a href="#term-rp">RP</a>나 <a href="#term-mmf">MMF</a> 같은 단기 상품에 굴려 이자를 주는 증권사 계좌입니다. 입출금이 자유로워 주식 매수 전 대기 자금을 두기에 편하지만, 예금과는 성격이 다릅니다. 예금보험공사 기준으로 증권사 CMA는 보호 대상이 아니고, 종합금융회사의 종금형 CMA만 보호 대상입니다. 이름이 같아도 어느 회사가 취급하는 상품인지 확인해야 합니다.</p>
+<h2 id="isa의-비과세-한도와-납입-한도">ISA의 비과세 한도와 납입 한도</h2>
+<p><a href="#term-isa">ISA</a>(Individual Savings Account: 개인종합자산관리계좌)는 한 계좌에서 여러 상품을 굴리며 손익을 합산해 과세하는 계좌입니다. 미래에셋증권 안내 기준으로 일반형의 비과세 한도는 200만 원, 서민형과 농어민형은 400만 원이고, 한도를 넘는 이익에는 9.9% 분리과세가 적용됩니다. 납입은 연 2,000만 원, 총 1억 원까지이고 의무가입기간은 3년입니다. 서민형은 총급여 5,000만 원 이하 또는 종합소득 3,800만 원 이하가 기준입니다. (<a href="https://securities.miraeasset.com/hks/hks4659/n02.do">미래에셋증권 ISA 안내</a>, 2026-11-05 확인)</p>
+<p>2026-08-03에 발표된 세제개편안에는 국내 주식 중심의 생산적금융 ISA를 새로 만드는 내용이 있습니다. 이 안은 연 2,000만 원, 총 2억 원까지 납입하고 이자·배당소득을 비과세하는 구상이지만, 국회 통과 전 정부안이라 아직 가입할 수 없습니다. (<a href="https://nsp.nanet.go.kr/plan/subject/detail.do?nationalPlanControlNo=PLAN0000065941">2026년 세제개편안 상세본</a>, 국회도서관, 2026-11-05 확인) 일부 블로그는 일반 ISA 한도가 이미 커졌다고 쓰지만 공식 자료로 확인하지 못했으니, 가입 전 증권사 공지를 보세요.</p>
+<h3 id="계산-예시-순이익-600만-원일-때-세금">계산 예시: 순이익 600만 원일 때 세금</h3>
+<p>입력값은 계좌 안 이자·배당 등 순이익 600만 원이고, 일반 과세 세율은 15.4%, ISA 초과분은 9.9%입니다. 식은 직접 손으로 계산했고 프로그램으로 검산하지는 못했습니다.</p>
+<table>
+	<thead>
+			<tr>
+					<th>계좌</th>
+					<th>계산식</th>
+					<th>세금</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>일반 과세</td>
+					<td>6,000,000 × 15.4%</td>
+					<td>924,000원</td>
+			</tr>
+			<tr>
+					<td>ISA 일반형</td>
+					<td>(6,000,000 - 2,000,000) × 9.9%</td>
+					<td>396,000원</td>
+			</tr>
+			<tr>
+					<td>ISA 서민형</td>
+					<td>(6,000,000 - 4,000,000) × 9.9%</td>
+					<td>198,000원</td>
+			</tr>
+	</tbody>
+</table>
+<p>국내 상장주식을 거래소에서 팔아 낸 이익은 일반 소액투자자도 양도소득세가 없어서, ISA의 이점은 주로 이자, 배당, 펀드 수익에서 나옵니다. 상품별 과세 방식은 증권사 안내로 확인해야 합니다.</p>
+<h2 id="연금저축펀드의-세액공제와-수령-조건">연금저축펀드의 세액공제와 수령 조건</h2>
+<p><a href="#term-pension-fund">연금저축펀드</a>는 증권사에서 가입하는 연금저축계좌로, 펀드와 ETF 등을 담아 노후 자금을 쌓는 계좌입니다. 연금저축은 연 1,800만 원까지 납입할 수 있지만 세액공제를 받는 금액은 연 600만 원까지이고, <a href="#term-irp">IRP</a>(Individual Retirement Pension: 개인형 퇴직연금)를 합치면 연 900만 원까지입니다. 공제율은 총급여 5,500만 원 이하(종합소득금액 4,500만 원 이하)이면 15%, 초과하면 12%이고, 지방소득세를 포함하면 16.5%와 13.2%입니다. (<a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7875">국세청 연금계좌 세액공제</a>, <a href="https://www.fss.or.kr/fss/main/contents.do?menuNo=200974">금융감독원 연금저축 개요</a>, 2026-11-05 확인)</p>
+<p>돈을 찾을 때가 조건입니다. 만 55세 이후 연금으로 받으면 3.3~5.5%의 연금소득세를 내고, 연 1,500만 원을 넘기면 16.5% 분리과세와 종합과세 중에서 고릅니다. 중간에 해지하면 기타소득세 16.5%가 붙습니다. 금감원 자료 기준으로 연금저축펀드는 예금자보호 대상이 아니며 원금이 보장되지 않습니다.</p>
+<h3 id="계산-예시-총급여-5500만-원-이하가-납입할-때">계산 예시: 총급여 5,500만 원 이하가 납입할 때</h3>
+<p>입력값은 연금저축 600만 원과 IRP 300만 원, 공제율 16.5%(지방소득세 포함)입니다. 마찬가지로 손으로 계산했습니다.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>연금저축만 600만 원: 6,000,000 × 16.5% =   990,000원
+</span></span><span style="display:flex;"><span>IRP 포함 900만 원  : 9,000,000 × 16.5% = 1,485,000원
+</span></span></code></pre></div><p>공제율이 13.2%인 경우 900만 원 납입은 9,000,000 × 13.2%로 1,188,000원입니다.</p>
+<h2 id="어떤-순서로-채울까">어떤 순서로 채울까</h2>
+<p>세제 혜택 계좌를 먼저 쓰라는 말은 공제나 비과세 한도가 정해져 있기 때문입니다. 한도 안의 돈은 일반 계좌보다 세금이 적게 나가므로, 일반적으로 연금저축·IRP의 세액공제 한도, ISA 납입 한도, 일반 위탁계좌 순으로 채웁니다. 다만 연금계좌는 55세까지, ISA는 3년간 돈이 묶이므로 몇 년 안에 쓸 돈은 넣지 않는 편이 낫습니다. ISA는 만기 후 잔액을 연금계좌로 옮기면 추가 세액공제가 있다는 국세청 안내가 있으나, 한도와 조건은 해마다 확인해야 합니다.</p>
+<h2 id="수수료와-협의수수료는-어디서-확인하나">수수료와 협의수수료는 어디서 확인하나</h2>
+<p>증권사 수수료는 계좌를 만드는 곳, 주문 방법(영업점, HTS, 모바일), 이벤트에 따라 다릅니다. 금융투자협회 전자공시의 수수료 비교 메뉴에서 주문 방식과 금액을 골라 증권사를 견줄 수 있고, 공시 금액은 일반 수수료라서 고객 등급이나 협의에 따라 실제 적용 금액이 달라질 수 있습니다. (<a href="https://kofia.or.kr/npboard/m_18/view.do?nttId=102470&amp;bbsId=BBSMSTR_000000000203&amp;srchWord=&amp;srchTp=&amp;page=63">금융투자협회 보도자료</a>, 2026-11-05 확인)</p>
+<p><a href="#term-negotiated-fee">협의수수료</a>는 거래 규모나 이용 조건을 근거로 증권사와 따로 정하는 수수료입니다. 비교할 때는 수수료율만 보지 말고, 이벤트 기간이 끝난 뒤의 요율과 한국거래소·예탁결제원에 내는 유관기관 제비용이 따로 붙는지도 함께 보세요. ISA와 연금저축에서는 수수료 외에 펀드·ETF 보수도 비용입니다.</p>
+<h2 id="참고-자료">참고 자료</h2>
+<ul>
+<li><a href="https://www.kdic.or.kr/sp/dpstrprot/selectProtSystProtTrgtPrdctSumr.do">예금보험공사 보호대상 금융상품 개요</a>, 예금보험공사, 2026-11-05 확인</li>
+<li><a href="https://www.kdic.or.kr/">예금보험공사</a>, 예금보험공사, 2026-11-05 확인</li>
+<li><a href="https://securities.miraeasset.com/hks/hks4659/n02.do">ISA 가입자격 및 종류</a>, 미래에셋증권, 2026-11-05 확인</li>
+<li><a href="https://nsp.nanet.go.kr/plan/subject/detail.do?nationalPlanControlNo=PLAN0000065941">2026년 세제개편안 상세본</a>, 국가전략포털 국회도서관, 2026-11-05 확인</li>
+<li><a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7875">연금계좌 세액공제</a>, 국세청, 2026-11-05 확인</li>
+<li><a href="https://www.fss.or.kr/fss/main/contents.do?menuNo=200974">연금저축 개요</a>, 금융감독원, 2026-11-05 확인</li>
+<li><a href="https://kofia.or.kr/npboard/m_18/view.do?nttId=102470&amp;bbsId=BBSMSTR_000000000203&amp;srchWord=&amp;srchTp=&amp;page=63">증권회사 위탁수수료 등 비교공시 개선</a>, 금융투자협회, 2026-11-05 확인</li>
+</ul>
+<h2 id="용어-설명">용어 설명</h2>
+<h3 id="term-brokerage">위탁매매</h3>
+<p>투자자의 계산으로 증권사가 거래소에 대신 주문을 내고 수수료를 받는 방식입니다. 개인은 거래소 회원이 아니라서 증권사를 거쳐야 합니다. (<a href="https://www.krx.co.kr/">한국거래소</a>)</p>
+<h3 id="term-cma">CMA</h3>
+<p>Cash Management Account(종합자산관리계좌). 증권사가 맡은 돈을 RP, MMF 같은 단기 상품에 운용해 이자를 주는 계좌입니다. 증권사 CMA는 예금자보호 대상이 아닙니다. (<a href="https://www.kdic.or.kr/sp/dpstrprot/selectProtSystProtTrgtPrdctSumr.do">예금보험공사</a>)</p>
+<h3 id="term-rp">RP</h3>
+<p>Repurchase Agreement(환매조건부채권). 증권사가 채권을 팔면서 나중에 다시 사겠다고 약속하는 거래로, 투자자는 그 사이 이자를 받습니다. (<a href="https://fine.fss.or.kr/">금융감독원 금융소비자정보 포털 FINE</a>)</p>
+<h3 id="term-mmf">MMF</h3>
+<p>Money Market Fund(머니마켓펀드). 단기 채권과 어음에 투자하는 펀드로, 운용 결과에 따라 수익이 달라지는 실적배당 상품입니다. (<a href="https://fine.fss.or.kr/">금융감독원 금융소비자정보 포털 FINE</a>)</p>
+<h3 id="term-isa">ISA</h3>
+<p>Individual Savings Account(개인종합자산관리계좌). 한 계좌에서 여러 금융상품을 담고 손익을 합산해 비과세 한도와 분리과세 혜택을 주는 계좌입니다. (<a href="https://securities.miraeasset.com/hks/hks4659/n02.do">ISA 가입자격 및 종류</a>)</p>
+<h3 id="term-pension-fund">연금저축펀드</h3>
+<p>증권사에서 가입하는 연금저축계좌입니다. 납입액에 세액공제를 받고 연금으로 받을 때 연금소득세를 냅니다. (<a href="https://www.fss.or.kr/fss/main/contents.do?menuNo=200974">금융감독원 연금저축 개요</a>)</p>
+<h3 id="term-irp">IRP</h3>
+<p>Individual Retirement Pension(개인형 퇴직연금). 퇴직금과 개인 납입금을 쌓는 계좌로, 연금저축과 합산해 연 900만 원까지 세액공제를 받습니다. (<a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7875">국세청 연금계좌 세액공제</a>)</p>
+<h3 id="term-negotiated-fee">협의수수료</h3>
+<p>고객 등급이나 거래 조건에 따라 증권사와 협의해 일반 수수료보다 낮게 적용하는 수수료입니다. (<a href="https://kofia.or.kr/npboard/m_18/view.do?nttId=102470&amp;bbsId=BBSMSTR_000000000203&amp;srchWord=&amp;srchTp=&amp;page=63">금융투자협회 보도자료</a>)</p>
+]]></content:encoded></item></channel></rss>

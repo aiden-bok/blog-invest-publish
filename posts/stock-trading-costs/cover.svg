@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="cover-title cover-desc">
+  <title id="cover-title">주식 거래 비용 cover</title>
+  <desc id="cover-desc">짙은 초록 배경 왼쪽에 제목 '주식 거래 비용', 오른쪽에 화면에 0.20%가 표시된 계산기와 쌓인 동전 그림</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06302d" />
+      <stop offset="1" stop-color="#0d4a44" />
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity="0.4" />
+      <stop offset="1" stop-color="#2dd4bf" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f5efe0" />
+      <stop offset="1" stop-color="#d8cfb8" />
+    </linearGradient>
+    <linearGradient id="coin" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b45309" />
+      <stop offset="0.5" stop-color="#fbbf24" />
+      <stop offset="1" stop-color="#d97706" />
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="220%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.45" />
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <circle cx="900" cy="300" r="330" fill="url(#halo)" />
+  <g stroke="#ffffff" stroke-opacity="0.08" stroke-width="1.5">
+    <line x1="0" y1="560" x2="1200" y2="560" />
+    <line x1="0" y1="592" x2="1200" y2="592" />
+  </g>
+
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Noto Sans CJK KR', 'Malgun Gothic', sans-serif">
+    <rect x="72" y="84" width="208" height="44" rx="22" fill="#fbbf24" fill-opacity="0.15" stroke="#fbbf24" stroke-opacity="0.8" />
+    <text x="176" y="113" font-size="20" font-weight="700" fill="#fcd34d" text-anchor="middle">수수료 · 세금</text>
+    <text x="72" y="248" font-size="72" font-weight="800" fill="#ffffff">주식 거래</text>
+    <text x="72" y="332" font-size="72" font-weight="800" fill="#ffffff">비용</text>
+    <rect x="72" y="368" width="96" height="6" rx="3" fill="#fbbf24" />
+    <text x="72" y="428" font-size="28" font-weight="500" fill="#d1e7e3">국내·해외 수수료와 세금 정리</text>
+    <text x="72" y="536" font-size="22" font-weight="700" fill="#d1e7e3">원금 보존 연구소</text>
+    <text x="240" y="536" font-size="22" font-weight="400" fill="#a7c9c4">invest.route50.kr</text>
+  </g>
+
+  <!-- 계산기 -->
+  <g transform="translate(790 76) rotate(5 150 220)" filter="url(#shadow)">
+    <rect x="0" y="0" width="300" height="440" rx="28" fill="url(#body)" />
+    <rect x="24" y="28" width="252" height="92" rx="14" fill="#10201e" />
+    <text x="256" y="92" font-size="52" font-weight="700" fill="#fbbf24" text-anchor="end" font-family="'JetBrains Mono', Menlo, Consolas, monospace">0.20%</text>
+    <g fill="#b9ae93">
+      <rect x="24" y="148" width="56" height="52" rx="12" />
+      <rect x="92" y="148" width="56" height="52" rx="12" />
+      <rect x="160" y="148" width="56" height="52" rx="12" />
+      <rect x="24" y="216" width="56" height="52" rx="12" />
+      <rect x="92" y="216" width="56" height="52" rx="12" />
+      <rect x="160" y="216" width="56" height="52" rx="12" />
+      <rect x="24" y="284" width="56" height="52" rx="12" />
+      <rect x="92" y="284" width="56" height="52" rx="12" />
+      <rect x="160" y="284" width="56" height="52" rx="12" />
+      <rect x="24" y="352" width="124" height="52" rx="12" />
+      <rect x="160" y="352" width="56" height="52" rx="12" />
+    </g>
+    <rect x="228" y="148" width="48" height="120" rx="12" fill="#0f766e" />
+    <rect x="228" y="284" width="48" height="120" rx="12" fill="#f59e0b" />
+  </g>
+
+  <!-- 동전 더미 -->
+  <g filter="url(#shadow)">
+    <g>
+      <ellipse cx="760" cy="520" rx="74" ry="22" fill="#92400e" />
+      <rect x="686" y="496" width="148" height="24" fill="url(#coin)" />
+      <ellipse cx="760" cy="496" rx="74" ry="22" fill="#fcd34d" />
+      <ellipse cx="760" cy="472" rx="74" ry="22" fill="#92400e" />
+      <rect x="686" y="448" width="148" height="24" fill="url(#coin)" />
+      <ellipse cx="760" cy="448" rx="74" ry="22" fill="#fcd34d" />
+      <ellipse cx="760" cy="424" rx="74" ry="22" fill="#92400e" />
+      <rect x="686" y="400" width="148" height="24" fill="url(#coin)" />
+      <ellipse cx="760" cy="400" rx="74" ry="22" fill="#fde68a" />
+    </g>
+  </g>
+</svg>

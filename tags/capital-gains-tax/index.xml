@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Capital-Gains-Tax on 원금 보존 연구소</title><link>https://invest.route50.kr/tags/capital-gains-tax/</link><description>Recent content in Capital-Gains-Tax on 원금 보존 연구소</description><image><title>원금 보존 연구소</title><url>https://invest.route50.kr/about/cover.jpg</url><link>https://invest.route50.kr/about/cover.jpg</link></image><generator>Hugo</generator><language>ko-kr</language><lastBuildDate>Wed, 04 Nov 2026 01:20:00 +0900</lastBuildDate><atom:link href="https://invest.route50.kr/tags/capital-gains-tax/index.xml" rel="self" type="application/rss+xml"/><item><title>주식 거래 비용: 수수료와 세금 (국내·해외)</title><link>https://invest.route50.kr/posts/stock-trading-costs/</link><pubDate>Mon, 02 Nov 2026 00:00:00 +0900</pubDate><guid>https://invest.route50.kr/posts/stock-trading-costs/</guid><description>국내·해외 주식을 사고팔 때 내는 증권사 수수료, 증권거래세, 양도소득세, SEC fee를 2026-11-02 기준 요율과 계산 예시로 정리했습니다.</description><content:encoded><![CDATA[<p>주식을 사고팔 때 드는 비용은 증권사에 내는 수수료와 나라에 내는 세금으로 나뉩니다. 국내 주식은 사고팔 때마다 증권사 수수료를 내고, 팔 때는 증권거래세가 0.20% 붙습니다(2026-01-01 이후 코스피·코스닥 기준). 미국 주식은 증권거래세 대신 매도 때 SEC fee가 붙고, 한 해 이익이 250만 원을 넘으면 그 초과분에 22%의 양도소득세를 냅니다. 증권사별 수수료 비교는 따로 정리할 예정이라 이 글은 어떤 비용이 언제 붙는지에 집중합니다. 수치는 2026-11-02에 확인한 기준입니다.</p>
+<figure>
+    <img loading="lazy" src="cost-map.svg"
+         alt="국내 주식은 증권사 수수료, 유관기관 제비용, 증권거래세, 양도소득세, 해외 주식은 증권사 수수료, SEC fee, 환전 비용, 양도소득세를 언제 내는지 나란히 비교한 그림"/> <figcaption>
+            <p>그림 1. 국내·해외 주식 거래 비용 (직접 제작)</p>
+        </figcaption>
+</figure>
+
+<h2 id="국내-주식을-거래할-때-드는-비용">국내 주식을 거래할 때 드는 비용</h2>
+<p>국내 주식 비용은 수수료 두 가지와 세금 한 가지가 기본입니다. 증권사 수수료와 유관기관 제비용은 사고팔 때 모두 붙고, 증권거래세는 팔 때만 붙습니다. 시장 구분과 결제일은 <a href="https://invest.route50.kr/posts/stock-market-basics/">주식시장 이해</a> 글에 있습니다.</p>
+<h3 id="증권사-수수료와-유관기관-제비용">증권사 수수료와 유관기관 제비용</h3>
+<p>증권사 수수료는 주문을 대신 처리해 주는 대가로 증권사에 내는 비용이고, 거래대금에 일정 비율을 곱해 매수와 매도에 각각 붙습니다. 비율은 증권사, 주문 방법(앱, 영업점), 이벤트에 따라 달라서 0.015% 안팎부터 훨씬 높은 곳까지 있습니다. 이 글의 예시는 0.015%로 가정했고, 실제 요율은 이용하는 증권사에서 확인해야 합니다.</p>
+<p><a href="#term-agency-fee">유관기관 제비용</a>은 한국거래소와 한국예탁결제원 같은 기관에 내는 비용입니다. 삼성증권 수수료 안내에는 한국거래소(KRX)에서 체결된 코스피·코스닥 주식의 유관기관 제비용률이 거래대금의 0.0036396%로 나옵니다. 대체거래소 넥스트레이드(NXT)에서 체결되면 0.0027033~0.0031833%로 조금 낮습니다. (<a href="https://www.samsungpop.com/ux/kor/customer/guide/workproductguide/commission.do">삼성증권 일반수수료 안내</a>, 2026-11-04 확인) 증권사 수수료가 무료인 이벤트에서도 이 비용은 따로 붙는 경우가 많습니다.</p>
+<p>2026-11-04 수정: 유관기관 제비용의 출처를 2020년 기사에서 증권사 공식 수수료 안내로 바꾸고 NXT 요율을 더했습니다.</p>
+<h3 id="증권거래세와-농어촌특별세">증권거래세와 농어촌특별세</h3>
+<p><a href="#term-securities-transaction-tax">증권거래세</a>는 주식을 팔 때 매도 금액에 붙는 세금입니다. 이익이 났는지와 상관없이 팔면 내기 때문에, 손해를 보고 팔아도 냅니다. 세금은 증권사가 매도 대금에서 알아서 떼어 갑니다.</p>
+<p>2026-01-01 이후 양도분부터 코스피는 증권거래세 0.05%에 <a href="#term-rural-tax">농어촌특별세</a> 0.15%가 더해져 합계 0.20%이고, 코스닥은 증권거래세 0.20%만 붙고 농어촌특별세는 없습니다. (<a href="https://www.taxtimes.co.kr/news/article.html?no=272624">세정일보 2025-12-01 기사</a>, 2026-11-02 확인) 이 기사는 시행령 개정 추진 단계의 보도라서, 법령 원문은 <a href="https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%A6%9D%EA%B6%8C%EA%B1%B0%EB%9E%98%EC%84%B8%EB%B2%95%EC%8B%9C%ED%96%89%EB%A0%B9">국가법령정보센터</a>에서 한 번 더 확인하는 편이 안전합니다. 세율은 해마다 바뀐 적이 있습니다. 2025년에는 코스피와 코스닥이 모두 0.15%였으니 0.05%포인트 올랐습니다.</p>
+<h3 id="계산-예시-1000만-원어치를-사서-1100만-원에-팔-때">계산 예시: 1,000만 원어치를 사서 1,100만 원에 팔 때</h3>
+<p>입력값은 매수 1,000만 원, 매도 1,100만 원, 증권사 수수료 0.015%(가정), 증권거래세와 농어촌특별세 합계 0.20%입니다. 유관기관 제비용은 금액이 작아 뺐습니다.</p>
+<table>
+	<thead>
+			<tr>
+					<th>항목</th>
+					<th>계산식</th>
+					<th>금액</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>매수 수수료</td>
+					<td>10,000,000 × 0.00015</td>
+					<td>1,500원</td>
+			</tr>
+			<tr>
+					<td>매도 수수료</td>
+					<td>11,000,000 × 0.00015</td>
+					<td>1,650원</td>
+			</tr>
+			<tr>
+					<td>증권거래세 등</td>
+					<td>11,000,000 × 0.002</td>
+					<td>22,000원</td>
+			</tr>
+			<tr>
+					<td>합계</td>
+					<td>1,500 + 1,650 + 22,000</td>
+					<td>25,150원</td>
+			</tr>
+	</tbody>
+</table>
+<p>수수료는 합쳐서 3,150원인데 세금이 22,000원이라, 국내 주식은 수수료보다 증권거래세가 비용의 대부분을 차지합니다. 위 계산은 Python 3.9로 검산했습니다.</p>
+<h3 id="양도소득세는-누가-내나">양도소득세는 누가 내나</h3>
+<p>국내 주식의 <a href="#term-capital-gains-tax">양도소득세</a>는 대주주처럼 일부만 냅니다. 일반 소액 투자자는 상장주식을 거래소에서 팔아 번 돈에 양도소득세를 내지 않습니다. (<a href="https://www.kcie.or.kr/guide/23/30/web_view?content_idx=488">한국투자교육원 안내</a>, 2026-11-02 확인) 대주주 기준은 바뀔 수 있어 국세청에서 확인해야 합니다.</p>
+<h2 id="해외-주식미국을-거래할-때-드는-비용">해외 주식(미국)을 거래할 때 드는 비용</h2>
+<p>미국 주식은 국내와 비용 구조가 다릅니다. 증권거래세가 없는 대신 매도 때 SEC fee가 붙고, 이익에는 양도소득세를 내며, 달러로 바꾸는 환전 비용이 따로 듭니다.</p>
+<h3 id="증권사-수수료-sec-fee-환전-비용">증권사 수수료, SEC fee, 환전 비용</h3>
+<p>미국 주식도 증권사 수수료가 매수와 매도에 붙고, 요율은 증권사마다 다릅니다. 원화를 달러로 바꿀 때는 환전 수수료가 붙는데, 환율 우대율도 증권사와 이벤트마다 달라서 거래 횟수가 많으면 수수료보다 환전 비용이 더 커질 수 있습니다.</p>
+<p><a href="#term-sec-fee">SEC fee</a>는 미국 증권거래위원회(SEC, Securities and Exchange Commission)가 정한 매도 거래 수수료로, 매수에는 붙지 않습니다. 2026-04-02 체결분부터 국내 증권사 기준 매도 금액의 0.00206% 수준이라고 보도되었습니다. 1억 원어치를 팔면 100,000,000 × 0.0000206으로 약 2,060원입니다. (<a href="https://v.daum.net/v/2GLCvpPKEG">다음 뉴스</a>, 2026-11-02 확인) 이 요율은 해마다 조정되므로 최신 요율은 증권사 공지에서 봐야 합니다.</p>
+<h3 id="해외-주식-양도소득세">해외 주식 양도소득세</h3>
+<p>해외 주식은 한 해 동안 판 종목의 손익을 합친 이익에서 250만 원을 뺀 금액에 세금을 냅니다. 양도소득세율은 20%이고, 양도소득세의 10%인 지방소득세가 따로 붙어 합계 22%입니다. 다음 해 5월 1일부터 5월 31일까지 직접 신고하고 납부하며, 기간을 넘기면 가산세가 붙습니다. (<a href="https://www.samsungpop.com/ux/kor/trading/overseasStock/overseasStockDealGuide/transferTax.do">삼성증권 해외주식 양도소득세 안내</a>, 2026-11-02 확인)</p>
+<p>입력값을 연간 순이익 800만 원으로 두면 계산은 이렇게 됩니다.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>과세 대상  = 8,000,000 - 2,500,000 = 5,500,000원
+</span></span><span style="display:flex;"><span>양도소득세 = 5,500,000 × 20%      = 1,100,000원
+</span></span><span style="display:flex;"><span>지방소득세 = 1,100,000 × 10%      =   110,000원
+</span></span><span style="display:flex;"><span>합계       =                        1,210,000원
+</span></span></code></pre></div><p>Python 3.9로 검산한 값입니다. 이익이 250만 원 이하이면 낼 세금이 없지만, 해외 주식 양도소득세는 신고 대상 여부를 국세청이나 증권사 안내로 확인해야 합니다. 여러 증권사를 쓰면 손익을 합쳐서 계산한다는 점도 놓치기 쉽습니다.</p>
+<h2 id="국내-주식과-해외-주식의-비용-비교">국내 주식과 해외 주식의 비용 비교</h2>
+<p>두 시장의 차이는 세금이 붙는 방식에서 가장 크게 나타납니다. 국내 주식은 매도 금액에 0.20%를 곱하는 거래세가 이익과 관계없이 붙고, 해외 주식은 이익이 연 250만 원을 넘어야 세금이 생깁니다. 반대로 해외 주식에는 환전 비용이 있고, 국내 주식에는 없습니다. 자주 사고파는 사람은 국내에서는 거래세, 해외에서는 환전 비용이 쌓이는 구조라는 것을 알아 두면 좋습니다.</p>
+<p>배당금에 붙는 배당소득세는 이 글에서 다루지 않았습니다. 이 글은 일반적인 기준을 정리한 것이고, 세금은 개인 상황에 따라 달라질 수 있습니다. 특정 종목이나 증권사를 권하지 않습니다.</p>
+<h2 id="참고-자료">참고 자료</h2>
+<ul>
+<li><a href="https://www.taxtimes.co.kr/news/article.html?no=272624">내년 1월부터 증권거래세율 코스피 0.05%, 코스닥 0.20%로 상향</a>, 세정일보, 2026-11-02 확인</li>
+<li><a href="https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%A6%9D%EA%B6%8C%EA%B1%B0%EB%9E%98%EC%84%B8%EB%B2%95%EC%8B%9C%ED%96%89%EB%A0%B9">증권거래세법 시행령</a>, 국가법령정보센터, 2026-11-02 확인</li>
+<li><a href="https://www.samsungpop.com/ux/kor/customer/guide/workproductguide/commission.do">일반수수료 - 주식</a>, 삼성증권, 2026-11-04 확인</li>
+<li><a href="https://v.daum.net/v/2GLCvpPKEG">서학개미가 몰랐던 SEC 수수료</a>, 다음 뉴스, 2026-11-02 확인</li>
+<li><a href="https://www.samsungpop.com/ux/kor/trading/overseasStock/overseasStockDealGuide/transferTax.do">해외주식 양도소득세 안내</a>, 삼성증권, 2026-11-02 확인</li>
+<li><a href="https://www.kcie.or.kr/guide/23/30/web_view?content_idx=488">세금 안내</a>, 한국투자교육원, 2026-11-02 확인</li>
+</ul>
+<h2 id="용어-설명">용어 설명</h2>
+<h3 id="term-agency-fee">유관기관 제비용</h3>
+<p>한국거래소, 한국예탁결제원 같은 유관기관에 내는 수수료를 증권사가 거래대금에 비율로 받는 비용입니다. KRX 체결분은 0.0036396%입니다. (<a href="https://www.samsungpop.com/ux/kor/customer/guide/workproductguide/commission.do">삼성증권 일반수수료 안내</a>)</p>
+<h3 id="term-securities-transaction-tax">증권거래세</h3>
+<p>주식을 팔 때 매도 금액에 붙는 세금입니다. 이익 여부와 관계없이 냅니다. (<a href="https://www.taxtimes.co.kr/news/article.html?no=272624">세정일보</a>)</p>
+<h3 id="term-rural-tax">농어촌특별세</h3>
+<p>농어촌 지원에 쓰려고 걷는 세금으로, 코스피 주식을 팔 때 매도 금액의 0.15%가 증권거래세와 함께 붙습니다. (<a href="https://www.taxtimes.co.kr/news/article.html?no=272624">세정일보</a>)</p>
+<h3 id="term-capital-gains-tax">양도소득세</h3>
+<p>주식을 팔아 번 이익에 붙는 세금입니다. 해외 주식은 연 250만 원을 공제한 뒤 22%(지방소득세 포함)를 냅니다. (<a href="https://www.samsungpop.com/ux/kor/trading/overseasStock/overseasStockDealGuide/transferTax.do">삼성증권</a>)</p>
+<h3 id="term-sec-fee">SEC fee</h3>
+<p>Securities and Exchange Commission fee. 미국 주식을 팔 때만 붙는 수수료로, 요율은 해마다 조정됩니다. (<a href="https://v.daum.net/v/2GLCvpPKEG">다음 뉴스</a>)</p>
+]]></content:encoded></item></channel></rss>

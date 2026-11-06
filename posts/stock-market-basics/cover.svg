@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="cover-title cover-desc">
+  <title id="cover-title">주식시장 이해 cover</title>
+  <desc id="cover-desc">어두운 남색 배경 왼쪽에 제목 '주식시장 이해', 오른쪽에 기둥이 선 거래소 건물과 큰 시계, 위로 오른 빨간 막대와 내려간 파란 막대 그림</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f1b3d" />
+      <stop offset="1" stop-color="#1b2b5e" />
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#3b5bdb" stop-opacity="0.55" />
+      <stop offset="1" stop-color="#3b5bdb" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="stone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4efe4" />
+      <stop offset="1" stop-color="#cfc6b2" />
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="220%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <circle cx="900" cy="300" r="340" fill="url(#halo)" />
+  <g stroke="#ffffff" stroke-opacity="0.08" stroke-width="1.5">
+    <line x1="0" y1="560" x2="1200" y2="560" />
+    <line x1="0" y1="592" x2="1200" y2="592" />
+  </g>
+
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Noto Sans CJK KR', 'Malgun Gothic', sans-serif">
+    <rect x="72" y="84" width="200" height="44" rx="22" fill="#fbbf24" fill-opacity="0.15" stroke="#fbbf24" stroke-opacity="0.8" />
+    <text x="172" y="113" font-size="22" font-weight="700" fill="#fcd34d" text-anchor="middle">주식 · 시장 · 결제</text>
+    <text x="72" y="236" font-size="76" font-weight="800" fill="#ffffff">주식시장 이해</text>
+    <text x="72" y="306" font-size="40" font-weight="700" fill="#dbe4ff">한국·미국 시장과 거래시간</text>
+    <rect x="72" y="344" width="96" height="6" rx="3" fill="#fbbf24" />
+    <text x="72" y="404" font-size="26" font-weight="500" fill="#c5d0f0">발행 · 시장 종류 · 결제일</text>
+    <text x="72" y="536" font-size="22" font-weight="700" fill="#e6ebfa">원금 보존 연구소</text>
+    <text x="240" y="536" font-size="22" font-weight="400" fill="#b4c0e6">invest.route50.kr</text>
+  </g>
+
+  <!-- 거래소 건물 -->
+  <g filter="url(#shadow)">
+    <polygon points="700,250 880,150 1060,250" fill="url(#stone)" />
+    <rect x="700" y="250" width="360" height="24" fill="#e2d9c4" />
+    <g fill="url(#stone)">
+      <rect x="722" y="282" width="40" height="190" />
+      <rect x="788" y="282" width="40" height="190" />
+      <rect x="854" y="282" width="40" height="190" />
+      <rect x="920" y="282" width="40" height="190" />
+      <rect x="986" y="282" width="40" height="190" />
+    </g>
+    <rect x="690" y="472" width="380" height="20" fill="#e2d9c4" />
+    <rect x="672" y="492" width="416" height="24" fill="#cfc6b2" />
+    <circle cx="880" cy="222" r="20" fill="#0f1b3d" />
+    <line x1="880" y1="222" x2="880" y2="208" stroke="#fcd34d" stroke-width="4" stroke-linecap="round" />
+    <line x1="880" y1="222" x2="892" y2="228" stroke="#fcd34d" stroke-width="4" stroke-linecap="round" />
+  </g>
+
+  <!-- 막대: 상승 빨강, 하락 파랑 -->
+  <g>
+    <rect x="1096" y="380" width="28" height="136" rx="4" fill="#f04452" />
+    <rect x="1132" y="330" width="28" height="186" rx="4" fill="#f04452" />
+    <rect x="630" y="420" width="28" height="96" rx="4" fill="#3182f6" />
+    <rect x="598" y="450" width="28" height="66" rx="4" fill="#3182f6" />
+  </g>
+</svg>

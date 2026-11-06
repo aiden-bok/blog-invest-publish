@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="cover-title cover-desc">
+  <title id="cover-title">2026-11-02 국내 증시 마감 요약 표지</title>
+  <desc id="cover-desc">어두운 남색 배경 왼쪽에 날짜 2026-11-02, 제목 '국내 증시 요약'과 다루는 항목(테마주 · 상·하한가 · 미국 증시), 오른쪽에 코스피·코스닥 종가와 등락률, 상한가 종목 수, 주도 테마 카드</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b132b" />
+      <stop offset="1" stop-color="#1c2541" />
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#3a86ff" stop-opacity="0.4" />
+      <stop offset="1" stop-color="#3a86ff" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.1" />
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.04" />
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#000000" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <!-- 배경 전체 채움 -->
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <circle cx="920" cy="300" r="320" fill="url(#halo)" />
+
+  <!-- 격자선 장식 -->
+  <g stroke="#ffffff" stroke-opacity="0.06" stroke-width="1.5">
+    <line x1="0" y1="560" x2="1200" y2="560" />
+    <line x1="0" y1="592" x2="1200" y2="592" />
+  </g>
+
+  <!-- 왼쪽 텍스트 정보 영역 -->
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Noto Sans CJK KR', 'Malgun Gothic', sans-serif">
+    <!-- 주제 칩 -->
+    <rect x="72" y="80" width="180" height="42" rx="21" fill="#3b82f6" fill-opacity="0.2" stroke="#3b82f6" stroke-opacity="0.6" />
+    <text x="162" y="108" font-size="22" font-weight="700" fill="#60a5fa" text-anchor="middle">국내 증시 마감</text>
+
+    <!-- 날짜 칩 -->
+    <rect x="264" y="80" width="160" height="42" rx="21" fill="#f59e0b" fill-opacity="0.2" stroke="#f59e0b" stroke-opacity="0.6" />
+    <text x="344" y="108" font-size="22" font-weight="700" fill="#fbbf24" text-anchor="middle">2026-11-02</text>
+
+    <!-- 제목 (H1) -->
+    <text x="72" y="220" font-size="64" font-weight="800" fill="#ffffff">국내 증시 요약</text>
+    <text x="72" y="286" font-size="38" font-weight="700" fill="#93c5fd">코스피·코스닥 시장 특징</text>
+    <rect x="72" y="324" width="88" height="6" rx="3" fill="#3b82f6" />
+
+    <!-- 부제: 본문에 실제로 들어간 섹션 -->
+    <text x="72" y="380" font-size="26" font-weight="500" fill="#cbd5e1"><tspan x="72" dy="0">테마주 · 상·하한가 · 미국 증시</tspan></text>
+
+    <!-- 블로그 브랜딩 -->
+    <text x="72" y="536" font-size="22" font-weight="700" fill="#e2e8f0">원금 보존 연구소</text>
+    <text x="236" y="536" font-size="22" font-weight="400" fill="#cbd5e1">invest.route50.kr</text>
+  </g>
+
+  <!-- 오른쪽 증시 인포그래픽 카드 영역 -->
+  <g transform="translate(680, 80)" filter="url(#shadow)" font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Noto Sans CJK KR', 'Malgun Gothic', sans-serif">
+    <!-- 메인 요약 카드 배경 -->
+    <rect width="440" height="450" rx="24" fill="url(#cardBg)" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1.5" />
+
+    <!-- 카드 헤더 -->
+    <text x="32" y="54" font-size="22" font-weight="700" fill="#f8fafc">시장 핵심 지표</text>
+    <line x1="32" y1="76" x2="408" y2="76" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1.5" />
+
+    <!-- 코스피 지표 박스 -->
+    <rect x="32" y="96" width="376" height="88" rx="16" fill="#000000" fill-opacity="0.3" stroke="#ffffff" stroke-opacity="0.08" />
+    <text x="56" y="134" font-size="22" font-weight="600" fill="#cbd5e1">코스피 (KOSPI)</text>
+    <text x="56" y="164" font-size="24" font-weight="800" fill="#f8fafc">5,859.08</text>
+    <text x="384" y="152" font-size="28" font-weight="800" fill="#f04452" text-anchor="end">+2.24%</text>
+
+    <!-- 코스닥 지표 박스 -->
+    <rect x="32" y="196" width="376" height="88" rx="16" fill="#000000" fill-opacity="0.3" stroke="#ffffff" stroke-opacity="0.08" />
+    <text x="56" y="234" font-size="22" font-weight="600" fill="#cbd5e1">코스닥 (KOSDAQ)</text>
+    <text x="56" y="264" font-size="24" font-weight="800" fill="#f8fafc">734.36</text>
+    <text x="384" y="252" font-size="28" font-weight="800" fill="#f04452" text-anchor="end">+1.38%</text>
+
+    <!-- 상한가 종목 수 & 핵심 테마 박스 -->
+    <rect x="32" y="296" width="376" height="120" rx="16" fill="#000000" fill-opacity="0.3" stroke="#ffffff" stroke-opacity="0.08" />
+    <text x="56" y="334" font-size="22" font-weight="600" fill="#cbd5e1">상한가 종목 수</text>
+    <text x="56" y="364" font-size="26" font-weight="800" fill="#f04452">9개 종목</text>
+
+    <text x="230" y="334" font-size="22" font-weight="600" fill="#cbd5e1">주도 테마</text>
+    <text x="230" y="364" font-size="22" font-weight="700" fill="#38bdf8"><tspan x="230" dy="0">조선 및 해양기</tspan><tspan x="230" dy="28">자재</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+# 검색엔진
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: Yeti
+# AI 검색과 사용자 요청 조회 (답변에 출처로 인용될 수 있음)
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+# AI 모델 학습 (막아도 검색 노출에는 영향이 없음)
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: Google-Extended
+Allow: /
+
+User-agent: *
+Allow: /
+
+Sitemap: https://invest.route50.kr/sitemap.xml

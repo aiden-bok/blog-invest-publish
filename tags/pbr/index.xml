@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>PBR on 원금 보존 연구소</title><link>https://invest.route50.kr/tags/pbr/</link><description>Recent content in PBR on 원금 보존 연구소</description><image><title>원금 보존 연구소</title><url>https://invest.route50.kr/about/cover.jpg</url><link>https://invest.route50.kr/about/cover.jpg</link></image><generator>Hugo</generator><language>ko-kr</language><lastBuildDate>Wed, 04 Nov 2026 01:20:00 +0900</lastBuildDate><atom:link href="https://invest.route50.kr/tags/pbr/index.xml" rel="self" type="application/rss+xml"/><item><title>주식 기본적 분석과 기술적 분석, 초보자용 정리</title><link>https://invest.route50.kr/posts/stock-analysis-methods/</link><pubDate>Mon, 02 Nov 2026 00:00:00 +0900</pubDate><guid>https://invest.route50.kr/posts/stock-analysis-methods/</guid><description>주식 분석 방법 두 가지인 기본적 분석과 기술적 분석이 무엇을 보는지, PER·PBR과 이동평균선을 가상 수치로 계산하며 비교했습니다.</description><content:encoded><![CDATA[<p>주식 분석 방법은 크게 기본적 분석과 기술적 분석으로 나뉩니다. 기본적 분석은 회사의 실적과 재산을 보고 주식의 적정한 가치를 따지는 방법이고, 기술적 분석은 과거의 주가와 거래량 흐름을 보고 앞으로의 움직임을 가늠하는 방법입니다. 한국경제신문의 한 해설은 앞의 것을 종목을 고르는 데, 뒤의 것을 언제 살지 판단하는 데 쓴다고 정리합니다. (<a href="https://sgsg.hankyung.com/article/2026040365581">한국경제신문 생글생글</a>, 2026-04-06 기사, 2026-11-02 확인) 아래 계산 예시는 모두 가상의 회사와 숫자이며, 실제 종목에 대한 의견이 아닙니다.</p>
+<h2 id="기본적-분석-회사의-가치를-따지는-방법">기본적 분석: 회사의 가치를 따지는 방법</h2>
+<p><a href="#term-fundamental-analysis">기본적 분석</a>은 기업의 실적, 재산, 성장 가능성을 살펴 주식이 가진 <a href="#term-intrinsic-value">내재가치</a>를 추정하고 현재 주가와 비교하는 분석입니다. 주가가 내재가치보다 많이 낮으면 싸다고 보고, 많이 높으면 비싸다고 봅니다.</p>
+<p>재료는 회사가 공개한 자료입니다. 상장회사는 사업보고서와 재무제표를 <a href="#term-dart">DART</a>(Data Analysis, Retrieval and Transfer System: 전자공시시스템)에 올리고, 투자자는 제출 즉시 조회할 수 있습니다. (<a href="https://dart.fss.or.kr/introduction/content1.do">DART 소개</a>, 금융감독원 전자공시시스템, 2026-11-02 확인) 여기서 매출과 순이익, 자산과 부채를 읽고 몇 가지 비율로 바꿔 비교합니다.</p>
+<h3 id="per과-pbr-계산해-보기">PER과 PBR 계산해 보기</h3>
+<p><a href="#term-per">PER</a>(Price Earnings Ratio: 주가수익비율)은 주가가 1주당 순이익의 몇 배인지 보여 주는 비율이고, <a href="#term-pbr">PBR</a>(Price Book-value Ratio: 주가순자산비율)은 주가가 1주당 순자산의 몇 배인지 보여 주는 비율입니다. 가상의 A사로 계산해 보겠습니다.</p>
+<table>
+	<thead>
+			<tr>
+					<th>항목</th>
+					<th>값</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>주가</td>
+					<td>20,000원</td>
+			</tr>
+			<tr>
+					<td>당기순이익</td>
+					<td>500억 원</td>
+			</tr>
+			<tr>
+					<td>순자산(자본)</td>
+					<td>8,000억 원</td>
+			</tr>
+			<tr>
+					<td>발행주식 수</td>
+					<td>5,000만 주</td>
+			</tr>
+	</tbody>
+</table>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>EPS = 500억 원 ÷ 5,000만 주 = 1,000원
+</span></span><span style="display:flex;"><span>PER = 20,000원 ÷ 1,000원 = 20배
+</span></span><span style="display:flex;"><span>BPS = 8,000억 원 ÷ 5,000만 주 = 16,000원
+</span></span><span style="display:flex;"><span>PBR = 20,000원 ÷ 16,000원 = 1.25배
+</span></span></code></pre></div><p>EPS는 1주당 순이익, BPS는 1주당 순자산입니다. A사 주식은 1년 순이익의 20배에 거래되고 있고, 장부상 순자산의 1.25배로 평가받는 셈입니다. 같은 업종의 다른 회사가 PER 10배라면 A사가 상대적으로 비싸다고 볼 수 있습니다.</p>
+<p>여기서 헷갈리기 쉬운 점이 있습니다. PER이 낮다고 무조건 싼 주식은 아닙니다. 순이익이 일시적으로 부풀었거나 앞으로 줄어들 회사도 PER이 낮게 나오기 때문입니다. 그래서 업종이 같은 회사끼리, 같은 회사의 과거 값과 견주어 보는 방식이 기본입니다. 순이익을 순자산으로 나눈 <a href="#term-roe">ROE</a>(Return On Equity: 자기자본이익률)도 함께 봅니다. A사는 500억 ÷ 8,000억으로 6.25%입니다.</p>
+<h2 id="기술적-분석-주가의-움직임을-보는-방법">기술적 분석: 주가의 움직임을 보는 방법</h2>
+<p><a href="#term-technical-analysis">기술적 분석</a>은 과거의 주가와 거래량 기록을 차트로 그려 추세와 반복되는 모양을 읽고, 앞으로의 움직임과 사고팔 시점을 판단하는 분석입니다. 회사의 실적은 보지 않고, 시장에서 실제로 형성된 가격 기록에 집중합니다.</p>
+<p>가장 먼저 배우는 도구는 <a href="#term-moving-average">이동평균선</a>입니다. 일정 기간 종가의 평균을 날마다 이어 그린 선으로, 들쭉날쭉한 가격을 부드럽게 만들어 방향을 보여 줍니다.</p>
+<h3 id="5일-이동평균-계산해-보기">5일 이동평균 계산해 보기</h3>
+<p>가상의 B사 종가가 닷새 동안 10,000원, 10,200원, 10,100원, 10,300원, 10,400원이었다면 5일 이동평균은 다음과 같습니다.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>(10,000 + 10,200 + 10,100 + 10,300 + 10,400) ÷ 5 = 51,000 ÷ 5 = 10,200원
+</span></span></code></pre></div><p>다음 날 종가가 10,500원이면 가장 오래된 10,000원을 빼고 10,500원을 넣어 (10,200 + 10,100 + 10,300 + 10,400 + 10,500) ÷ 5, 곧 10,300원이 됩니다. 이렇게 하루씩 밀어 가며 점을 찍어 이은 선이 이동평균선입니다.</p>
+<p>보통 5일선(단기)과 20일선, 60일선(중기)처럼 기간이 다른 선을 함께 봅니다. 주가가 이동평균선 위에서 움직이면 오르는 흐름, 아래면 내리는 흐름으로 읽는 것이 가장 단순한 해석입니다. 거래량도 같이 봅니다. 주가가 올랐는데 거래량이 따라 늘지 않으면 힘이 약하다고 보는 식입니다.</p>
+<h2 id="두-분석의-차이와-한계">두 분석의 차이와 한계</h2>
+<p>두 분석은 보는 대상, 보는 기간, 쓰임새가 다릅니다.</p>
+<figure>
+    <img loading="lazy" src="analysis-compare.svg"
+         alt="기본적 분석은 재무제표를 보고 무엇을 살지 정하는 데, 기술적 분석은 차트를 보고 언제 살지 정하는 데 쓴다는 비교 그림"/> <figcaption>
+            <p>그림 1. 두 분석 방법 비교 (직접 제작)</p>
+        </figcaption>
+</figure>
+
+<p>기본적 분석은 보는 대상이 재무제표와 사업 내용이고, 주로 몇 달에서 몇 년을 내다보며 종목을 고르는 데 씁니다. 기술적 분석은 보는 대상이 주가와 거래량이고, 주로 며칠에서 몇 주 단위로 사고팔 시점을 잡는 데 씁니다.</p>
+<p>한계도 분명합니다. 기본적 분석은 재무제표가 지난 실적이라서, 주가가 내재가치에 가까워지기까지 오래 걸릴 수 있고 그동안 오히려 더 떨어질 수도 있습니다. 내재가치 자체도 사람마다 다르게 추정합니다. 기술적 분석은 과거 모양이 되풀이된다는 가정 위에 있어서 뉴스나 실적 발표 같은 갑작스러운 변수에는 속수무책이고, 같은 차트도 보는 사람에 따라 다르게 읽힙니다. 어느 쪽도 수익을 보장하지 않습니다.</p>
+<p>그래서 초보자는 기본적 분석으로 사업과 숫자를 이해할 수 있는 회사를 추리고, 기술적 분석은 지금 가격이 최근 흐름에서 어디쯤인지 확인하는 보조 도구로 쓰는 방식을 많이 택합니다. 이것은 하나의 접근법일 뿐이고 정답은 아닙니다. 수수료와 세금은 어느 방법을 쓰든 똑같이 들기 때문에 <a href="https://invest.route50.kr/posts/stock-trading-costs/">주식 거래 비용</a> 글에서 따로 확인하고, 거래소와 시장 구분이 낯설면 <a href="https://invest.route50.kr/posts/stock-market-basics/">주식시장 이해</a> 글을 먼저 보면 됩니다.</p>
+<p>특정 종목을 사거나 팔라는 뜻이 아닙니다. 계산 예시는 가상 수치이며, Python 3.9로 검산했습니다.</p>
+<h2 id="참고-자료">참고 자료</h2>
+<ul>
+<li><a href="https://sgsg.hankyung.com/article/2026040365581">[경제학 원론 산책] &lsquo;기술적 분석&rsquo; 잘 활용하면 투자수익 커져요</a>, 한국경제신문 생글생글, 2026-11-02 확인</li>
+<li><a href="https://dart.fss.or.kr/introduction/content1.do">DART 소개</a>, 금융감독원 전자공시시스템, 2026-11-02 확인</li>
+</ul>
+<h2 id="용어-설명">용어 설명</h2>
+<h3 id="term-fundamental-analysis">기본적 분석</h3>
+<p>기업의 실적과 재산을 바탕으로 주식의 내재가치를 분석하는 방법으로, 종목을 고르는 데 주로 씁니다. (<a href="https://sgsg.hankyung.com/article/2026040365581">한국경제신문 생글생글</a>)</p>
+<h3 id="term-intrinsic-value">내재가치</h3>
+<p>시장 가격과 별개로, 기업의 실적과 재산 같은 근거로 따져 본 주식의 적정한 가치입니다. 추정하는 사람마다 값이 다릅니다.</p>
+<h3 id="term-dart">DART</h3>
+<p>Data Analysis, Retrieval and Transfer System(전자공시시스템). 상장법인 등이 공시서류를 인터넷으로 제출하고, 투자자가 제출 즉시 조회할 수 있게 하는 기업공시 시스템입니다. (<a href="https://dart.fss.or.kr/introduction/content1.do">DART 소개</a>)</p>
+<h3 id="term-per">PER</h3>
+<p>Price Earnings Ratio(주가수익비율). 주가를 1주당 순이익(EPS)으로 나눈 값으로, 순이익의 몇 배에 거래되는지 보여 줍니다. 같은 업종끼리 비교합니다.</p>
+<h3 id="term-pbr">PBR</h3>
+<p>Price Book-value Ratio(주가순자산비율). 주가를 1주당 순자산(BPS)으로 나눈 값입니다. 1배보다 낮으면 장부상 순자산보다 싸게 거래된다는 뜻입니다.</p>
+<h3 id="term-roe">ROE</h3>
+<p>Return On Equity(자기자본이익률). 당기순이익을 자기자본으로 나눈 비율로, 주주의 돈으로 얼마나 벌었는지 보여 줍니다.</p>
+<h3 id="term-technical-analysis">기술적 분석</h3>
+<p>과거의 주가와 거래량 정보를 이용해 앞으로의 주가를 예측하고, 언제 사고팔지 판단하는 방법입니다. (<a href="https://sgsg.hankyung.com/article/2026040365581">한국경제신문 생글생글</a>)</p>
+<h3 id="term-moving-average">이동평균선</h3>
+<p>일정 기간의 종가 평균을 날마다 이어 그린 선입니다. 5일선, 20일선, 60일선을 많이 씁니다.</p>
+]]></content:encoded></item></channel></rss>
